@@ -1,0 +1,67 @@
+body{
+    background-color: lightgray;
+}
+
+* {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+header {
+    background-color: yellow;
+}
+
+.apresentacao {
+    background-color: yellow;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    }
+
+nav{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+            }
+
+nav a {
+    text-decoration: none;
+    padding: 0 10px;
+    
+}
+
+.usuarios{
+    width: 100px;
+    height: 100px;
+    padding: 50px;
+}
+
+
+
+footer {
+    display: flex;
+    flex-direction: row;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+    background-color: yellow;
+    justify-items: center;
+
+}
+
+.time {
+    
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding: 50px;
+            
+}
+
+h1{
+    text-align: center;
+}
+
+.sociais {
+    height: 25px;
+    width: 25px;
+    
+}
